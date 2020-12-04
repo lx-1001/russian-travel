@@ -1,0 +1,42 @@
+.place {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 80px;
+    list-style: none;
+    display: grid;
+    grid-template-areas: "title url"
+                         "img text";
+    column-gap: 40px;
+    row-gap: 48px;
+    grid-template-columns: 36vw 38vw;
+}
+
+.place:nth-last-child(1) {
+    padding-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .place {
+        grid-template-columns: 43vw 44.5vw;
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        grid-template-columns: 44.25vw 45.85vw;
+        column-gap: 28px;
+        padding-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .place {
+        grid-template-areas: "title"
+                             "img"
+                             "text";
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+        padding-bottom: 49px;
+    }
+}
