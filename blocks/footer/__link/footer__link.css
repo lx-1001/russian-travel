@@ -2,7 +2,6 @@
     margin:0;
     padding: 0;
     padding-right: 18px;
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -11,6 +10,10 @@
     text-align: left;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 767px) {

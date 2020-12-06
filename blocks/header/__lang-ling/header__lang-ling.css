@@ -1,8 +1,15 @@
 .header__lang-ling {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__lang-ling:hover {
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
 }
