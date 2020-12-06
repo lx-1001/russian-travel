@@ -1,4 +1,4 @@
-.header__lang-ling {
+.header__link {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -7,7 +7,7 @@
     text-decoration: none;
 }
 
-.header__lang-ling:hover {
+.header__link:hover {
     opacity: 0.8;
     font-size: 18px;
     font-weight: 400;
