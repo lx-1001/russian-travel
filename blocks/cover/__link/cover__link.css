@@ -2,9 +2,9 @@
     display: block;
     position: relative;
     text-decoration: none;
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
-    min-height: 57.8vw;
+    min-height: 740px;
     background-image: url(../../../image/cover-trains.jpg);
     background-size: cover;
     background-position: center;
